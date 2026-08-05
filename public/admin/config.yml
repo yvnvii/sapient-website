@@ -1,0 +1,103 @@
+# Sveltia CMS — the editing interface at yoursite.com/admin/
+# Set `repo` below to your GitHub org/repo, then see README.md for sign-in.
+
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/sapient-journal
+  branch: main
+  # base_url: https://your-auth-worker.workers.dev   # see README, step 7B
+
+site_url: https://www.sapientjournal.com
+display_url: https://www.sapientjournal.com
+
+media_folder: public/images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: posts
+    label: Hominin Hub posts
+    label_singular: Post
+    folder: src/content/blog
+    extension: md
+    format: yaml-frontmatter
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} — {{author}}"
+    sortable_fields: [date, title]
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true }
+      - { label: Author, name: author, widget: string }
+      - { label: Reading time, name: readingTime, widget: string, required: false, hint: "e.g. 2 min read" }
+      - { label: Excerpt, name: excerpt, widget: text }
+      - { label: Header image, name: image, widget: image, required: false }
+      - { label: Draft, name: draft, widget: boolean, default: false }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: data
+    label: Journal & board
+    files:
+      - name: journal
+        label: Volumes & submissions
+        file: src/data/journal.json
+        fields:
+          - label: Submission cycle
+            name: cycle
+            widget: object
+            fields:
+              - { label: Status line, name: statusLine, widget: string, hint: "Big heading above the Submit button on the homepage." }
+              - { label: Submissions open?, name: open, widget: boolean, default: false }
+              - { label: Blurb, name: blurb, widget: text }
+              - { label: Deadline, name: deadline, widget: string }
+          - label: Volumes
+            name: volumes
+            widget: list
+            summary: "{{fields.label}}"
+            fields:
+              - { label: Label, name: label, widget: string, hint: 'e.g. "Volume Thirteen"' }
+              - { label: Cover image, name: cover, widget: image }
+              - { label: PDF, name: file, widget: file }
+              - { label: Current issue?, name: current, widget: boolean, default: false, hint: "Tick exactly one." }
+              - { label: Headline, name: headline, widget: string, required: false }
+              - { label: Note, name: note, widget: text, required: false }
+
+      - name: board
+        label: Editorial board
+        file: src/data/board.json
+        fields:
+          - { label: Heading, name: heading, widget: string }
+          - label: Current board
+            name: members
+            widget: list
+            summary: "{{fields.name}} — {{fields.role}}"
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Role, name: role, widget: string }
+              - { label: School & year, name: school, widget: string, required: false }
+              - { label: Photo, name: photo, widget: image }
+          - label: Alumni
+            name: alumni
+            widget: list
+            summary: "{{fields.name}} — {{fields.role}}"
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Role, name: role, widget: string }
+              - { label: School & year, name: school, widget: string, required: false }
+              - { label: Photo, name: photo, widget: image }
+          - label: Faculty advisor
+            name: advisor
+            widget: object
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Titles, name: titles, widget: list, field: { label: Line, name: line, widget: string } }
+              - { label: Email, name: email, widget: string }
+              - { label: Photo, name: photo, widget: image }
+          - { label: Thank you note, name: thanks, widget: text }
+          - label: Letter from the editors
+            name: letter
+            widget: object
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - { label: Subheading, name: subheading, widget: string }
+              - { label: Paragraphs, name: paragraphs, widget: list, field: { label: Paragraph, name: p, widget: text } }
+              - { label: Signature, name: signature, widget: string }

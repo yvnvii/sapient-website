@@ -1,0 +1,77 @@
+---
+import Base from "../layouts/Base.astro";
+import board from "../data/board.json";
+---
+
+<Base title="Editorial Board">
+  <section class="band">
+    <div class="wrap">
+      <h1 class="section-title centered">{board.heading}</h1>
+      <div class="people">
+        {
+          board.members.map((m) => (
+            <article class="person">
+              <img src={m.photo} alt={m.name} loading="lazy" />
+              <p class="person__name">{m.name}</p>
+              <p class="person__role">
+                {m.role}
+                {m.school && <><br />{m.school}</>}
+              </p>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--alt">
+    <div class="wrap">
+      <h2 class="section-title centered">Alumni</h2>
+      <div class="people">
+        {
+          board.alumni.map((m) => (
+            <article class="person">
+              <img src={m.photo} alt={m.name} loading="lazy" />
+              <p class="person__name">{m.name}</p>
+              <p class="person__role">
+                {m.role}
+                {m.school && <><br />{m.school}</>}
+              </p>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap">
+      <div class="advisor">
+        <img src={board.advisor.photo} alt={board.advisor.name} loading="lazy" />
+        <div>
+          <h2 style="text-transform:none; letter-spacing:.03em; font-size:1.35rem; margin-bottom:.75rem;">
+            {board.advisor.name}
+          </h2>
+          {board.advisor.titles.map((t) => <p>{t}</p>)}
+          <p style="margin-top:.75rem;">
+            <a href={`mailto:${board.advisor.email}`}>{board.advisor.email}</a>
+          </p>
+        </div>
+      </div>
+      <p class="centered" style="margin-top:3rem; color:var(--muted);">{board.thanks}</p>
+    </div>
+  </section>
+
+  <section class="band band--alt">
+    <div class="wrap">
+      <h2 class="section-title centered">{board.letter.heading}</h2>
+      <p class="centered" style="color:var(--muted); margin-top:-1rem; margin-bottom:2rem;">
+        {board.letter.subheading}
+      </p>
+      <div class="letter">
+        {board.letter.paragraphs.map((p) => <p>{p}</p>)}
+        <p class="letter__sign">{board.letter.signature}</p>
+      </div>
+    </div>
+  </section>
+</Base>

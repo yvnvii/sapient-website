@@ -1,0 +1,33 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection, render } from "astro:content";
+import type { GetStaticPaths } from "astro";
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const posts = await getCollection("posts", ({ data }) => !data.draft);
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+};
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+
+const fmt = (d: Date) =>
+  d.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+---
+
+<Base title={post.data.title} description={post.data.excerpt}>
+  <article class="band">
+    <div class="wrap">
+      <div class="article">
+        <p style="margin-bottom:1.5rem;"><a href="/hominin-hub">&larr; All Posts</a></p>
+        <h1>{post.data.title}</h1>
+        <p class="post-card__meta" style="margin-bottom:2rem;">
+          {post.data.author} · {fmt(post.data.date)}
+          {post.data.readingTime && ` · ${post.data.readingTime}`}
+        </p>
+        {post.data.image && <img src={post.data.image} alt="" />}
+        <Content />
+      </div>
+    </div>
+  </article>
+</Base>

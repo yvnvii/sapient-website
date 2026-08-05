@@ -1,0 +1,44 @@
+---
+import Base from "../layouts/Base.astro";
+import { volumes } from "../data/site";
+
+const current = volumes.find((v) => v.current) ?? volumes[0];
+const past = volumes.filter((v) => !v.current);
+---
+
+<Base title="Journal">
+  <section class="band">
+    <div class="wrap">
+      <h1 class="section-title centered">Read the Journal</h1>
+
+      <div class="volume-hero">
+        <a href={current.file}>
+          <img src={current.cover} alt={`Cover of Sapient ${current.label}`} />
+        </a>
+        <div>
+          <h2 class="section-title">{current.headline}</h2>
+          {current.note?.split("\n\n").map((p) => <p style="margin-bottom:1rem;">{p}</p>)}
+          <p style="margin-top:1.5rem;">
+            <a class="btn" href={current.file}>Read the PDF</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--alt">
+    <div class="wrap">
+      <h2 class="section-title centered">Previous Volumes</h2>
+      <div class="volume-grid">
+        {
+          past.map((v) => (
+            <a href={v.file}>
+              <img src={v.cover} alt={`Cover of Sapient ${v.label}`} loading="lazy" />
+              <span>{v.label}</span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Base>

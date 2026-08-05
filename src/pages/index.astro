@@ -1,0 +1,214 @@
+---
+import Base from "../layouts/Base.astro";
+import { site, topics, reasons, cycle } from "../data/site";
+---
+
+<Base>
+  <!-- ========================================================= HERO ==== -->
+  <section class="hero" id="home">
+    <img class="hero__bg" src="/images/hero-background.jpg" alt="" />
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <p class="hero__kicker">Sapient</p>
+        <h1 class="hero__title">
+          The Undergraduate Journal<br />of Biological Anthropology
+        </h1>
+      </div>
+      <div class="hero__logos">
+        <img src="/images/columbia-logo.png" alt="Columbia University" />
+        <img src="/images/e3b-logo.png" alt="E3B" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================== ABOUT ==== -->
+  <section class="band" id="about">
+    <div class="wrap centered">
+      <h2 class="section-title">About Sapient</h2>
+      <div class="prose">
+        <p>
+          Sapient was founded in 2012 by undergraduates of the Evolutionary
+          Biology of the Human Species (EBHS) program within the Ecology,
+          Evolution, and Environmental Biology (E3B) department at Columbia
+          University. We are a student-run annual publication focusing on
+          undergraduate research in biological anthropology.
+        </p>
+        <p>
+          Our goal is to provide undergraduates from universities worldwide the
+          opportunity to have their scientific writing peer-reviewed and
+          formally published.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================================================== DEFINITION === -->
+  <section class="band band--alt band--tight">
+    <div class="wrap">
+      <div class="entry">
+        <img
+          class="entry__portrait"
+          src="/images/monkey-portrait-1.jpg"
+          alt="Monkey portrait"
+          loading="lazy"
+        />
+        <div class="centered">
+          <p class="entry__word">sa·pi·ent</p>
+          <p class="entry__pron">ˈsāpēənt/</p>
+          <p class="entry__pos">adjective</p>
+          <ol style="text-align:left; display:inline-block; margin-top:1.25rem;">
+            <li>Wise, possessing or expressing great sagacity</li>
+            <li>Relating to the human species (<i>Homo sapiens</i>)</li>
+          </ol>
+        </div>
+        <img
+          class="entry__portrait"
+          src="/images/monkey-portrait-2.jpg"
+          alt="Monkey portrait"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================= TOPICS ==== -->
+  <section class="band">
+    <div class="wrap">
+      <h2 class="section-title centered">Our Research Topics</h2>
+      <div class="topics">
+        {
+          topics.map((t) => (
+            <article class="topic">
+              <img src={t.image} alt={t.title} loading="lazy" />
+              <h3>{t.title}</h3>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================================================== WHAT IS BA === -->
+  <section class="band band--dark">
+    <div class="wrap centered">
+      <h2 class="section-title">What is Biological Anthropology?</h2>
+      <div class="prose">
+        <p>
+          Also known as physical anthropology, the study of biological
+          anthropology centers around the biological aspects (e.g. adaptation,
+          variation, behavioral ecology, evolution) of humans and their living
+          and fossil relatives, including non-human primates. Critically, it
+          does so within the framework of evolutionary theory and with
+          attention to biocultural development: that is the interplay of
+          biology and culture.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================ SUBMIT STATUS ==== -->
+  <section class="band band--tight">
+    <div class="wrap centered stack-center">
+      <h2 class="section-title" style="margin-bottom:0; max-width:24ch;">
+        {cycle.statusLine}
+      </h2>
+      <a class="btn" href={site.submitFormUrl}>Click to Submit</a>
+    </div>
+  </section>
+
+  <!-- ========================================================= CARDS === -->
+  <section class="band band--tight">
+    <div class="wrap">
+      <div class="cardpair">
+        <a class="card" href="/editorial-board">
+          <img src="/images/meet-the-team.jpg" alt="" loading="lazy" />
+          <span>Meet the Board</span>
+        </a>
+        <a class="card" href={`mailto:${site.email}`}>
+          <img src="/images/letter-from-editor.jpg" alt="" loading="lazy" />
+          <span>Contact the Editor</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================= WHY JOIN == -->
+  <section class="band band--alt">
+    <div class="wrap">
+      <h2 class="section-title centered">Why Join Sapient?</h2>
+      <div class="reasons">
+        {
+          reasons.map((r) => (
+            <article>
+              <img src={r.image} alt="" loading="lazy" />
+              <h3>{r.title}</h3>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================================================== JOIN TEAM ==== -->
+  <section class="band" id="join">
+    <div class="wrap centered">
+      <h2 class="section-title">Join the Sapient Team</h2>
+      <div class="prose">
+        <p>
+          No experience in biological anthropology necessary! All humans are
+          welcome.
+        </p>
+        <p>
+          Join our student group sponsored by the Ecology, Evolution, and
+          Environmental Biology Department (E3B) at Columbia University.
+        </p>
+        <p>
+          Seeking Board Editors, Illustrators, Hominin Hub contributors, and
+          more!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================= SUBMIT ==== -->
+  <section class="band band--alt" id="submit">
+    <div class="wrap centered">
+      <h2 class="section-title">Submit to Sapient</h2>
+      <div class="prose">
+        <p class="lead">{cycle.blurb}</p>
+        <p><strong>Submission deadline: {cycle.deadline}</strong></p>
+        <p>
+          Submissions accepted through this
+          <a href={site.submitFormUrl}>google form</a> — or via email at
+          <a href={`mailto:${site.email}?subject=Submission`}>{site.email}</a>
+        </p>
+      </div>
+      <p style="margin-top:2rem;">
+        <a class="btn" href={site.flyerUrl}>Download Our Flyer Here</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ====================================================== CONTACT ==== -->
+  <section class="band" id="contact">
+    <div class="wrap centered stack-center">
+      <h2 class="section-title" style="margin-bottom:0;">Questions?</h2>
+      <img
+        src="/images/questions.jpg"
+        alt=""
+        width="241"
+        height="233"
+        style="border-radius:50%; object-fit:cover;"
+        loading="lazy"
+      />
+      <div>
+        <h3 style="text-transform:none; letter-spacing:.03em; font-size:1.2rem;">
+          Email us directly at
+        </h3>
+        <p style="font-size:1.15rem;">
+          <a href={`mailto:${site.email}`}>{site.email}</a>
+        </p>
+      </div>
+    </div>
+  </section>
+</Base>

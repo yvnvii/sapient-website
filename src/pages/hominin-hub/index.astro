@@ -1,0 +1,36 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("posts", ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+
+const fmt = (d: Date) =>
+  d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+---
+
+<Base title="The Hominin Hub">
+  <section class="band">
+    <div class="wrap">
+      <h1 class="section-title centered">The Hominin Hub</h1>
+      <div class="posts">
+        {
+          posts.map((post) => (
+            <a class="post-card" href={`/hominin-hub/${post.id}/`}>
+              {post.data.image && <img src={post.data.image} alt="" loading="lazy" />}
+              <div class="post-card__body">
+                <h2 class="post-card__title">{post.data.title}</h2>
+                <p>{post.data.excerpt}</p>
+                <p class="post-card__meta">
+                  {post.data.author} · {fmt(post.data.date)}
+                  {post.data.readingTime && ` · ${post.data.readingTime}`}
+                </p>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Base>

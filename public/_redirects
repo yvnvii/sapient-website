@@ -1,0 +1,8 @@
+# Old Wix URLs -> new routes, so existing links and citations keep working.
+/blog-the-hominin-hub    /hominin-hub          301
+/blog-the-hominin-hub/*  /hominin-hub/:splat   301
+/post/*                  /hominin-hub/:splat   301
+/profile/*               /editorial-board      301
+/submit                  /#submit              301
+/contact                 /#contact             301
+/about                   /#about               301

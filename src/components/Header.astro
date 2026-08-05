@@ -1,0 +1,32 @@
+---
+import { nav } from "../data/site";
+const path = Astro.url.pathname.replace(/\/$/, "") || "/";
+---
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="/" class="site-logo" aria-label="Sapient Journal home">
+      <img src="/images/logo-monkey-selfie.jpg" alt="Sapient Journal" width="62" height="62" />
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+        {
+          nav.map((item) => (
+            <li>
+              <a
+                href={item.href}
+                aria-current={
+                  !item.href.includes("#") && path.startsWith(item.href)
+                    ? "page"
+                    : undefined
+                }
+              >
+                {item.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+</header>

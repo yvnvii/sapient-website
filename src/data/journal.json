@@ -1,0 +1,42 @@
+{
+  "cycle": {
+    "statusLine": "Submissions closed for Sapient Volume 13: 2025-2026",
+    "open": false,
+    "blurb": "Are you an undergraduate student? A writer? An artist? Sapient would love to publish your art or essay in our next journal or on our blog! Volume 13 will be digitally published in the Spring 2026 semester.",
+    "deadline": "May 31, 2026 (Extended)"
+  },
+  "volumes": [
+    {
+      "label": "Volume Thirteen",
+      "cover": "/images/covers/vol-13.png",
+      "file": "/files/sapient-vol-13.pdf",
+      "current": true,
+      "headline": "Volume Thirteen is published!",
+      "note": "Sapient is thrilled to announce the publication of the journal's thirteenth volume.\n\nTo our readers: thank you for making our work worthwhile. We hope you appreciate this edition of Sapient as much as we enjoyed creating it."
+    },
+    {
+      "label": "Volume Twelve",
+      "cover": "/images/covers/vol-12.png",
+      "file": "/files/sapient-vol-12.pdf",
+      "current": false
+    },
+    {
+      "label": "Volume Eleven",
+      "cover": "/images/covers/vol-11.png",
+      "file": "/files/sapient-vol-11.pdf",
+      "current": false
+    },
+    {
+      "label": "Volume Ten",
+      "cover": "/images/covers/vol-10.png",
+      "file": "/files/sapient-vol-10.pdf",
+      "current": false
+    },
+    {
+      "label": "Volume Nine",
+      "cover": "/images/covers/vol-9.png",
+      "file": "/files/sapient-vol-9.pdf",
+      "current": false
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "heading": "Meet the Sapient Team",
+  "members": [
+    {
+      "name": "Janaki Nair",
+      "role": "Editor-in-Chief",
+      "school": "Columbia College '27",
+      "photo": "/images/board/janaki-nair.jpg"
+    },
+    {
+      "name": "Yuki Ogawa",
+      "role": "Editor-in-Chief",
+      "school": "Columbia College '27",
+      "photo": "/images/board/yuki-ogawa.jpg"
+    },
+    {
+      "name": "Priyanka Joshi",
+      "role": "Board Editor",
+      "school": "Columbia College '26",
+      "photo": "/images/board/default-pfp.png"
+    },
+    {
+      "name": "Shane Nishimura",
+      "role": "Board Editor",
+      "school": "",
+      "photo": "/images/board/shane-nishimura.jpg"
+    },
+    {
+      "name": "Bronagh Doughty",
+      "role": "Board Editor",
+      "school": "Barnard College '26",
+      "photo": "/images/board/default-pfp.png"
+    },
+    {
+      "name": "Charlotte Gravlee",
+      "role": "Board Editor",
+      "school": "Columbia College '28",
+      "photo": "/images/board/charlotte-gravlee.jpg"
+    },
+    {
+      "name": "Joanna Lin",
+      "role": "Board Editor",
+      "school": "Columbia College '26",
+      "photo": "/images/board/joanna-lin.jpg"
+    },
+    {
+      "name": "Geena Kye",
+      "role": "Board Editor",
+      "school": "",
+      "photo": "/images/board/default-pfp.png"
+    },
+    {
+      "name": "Emi Gaçaj",
+      "role": "Board Editor",
+      "school": "Columbia College '26",
+      "photo": "/images/board/emi-gacaj.jpg"
+    },
+    {
+      "name": "Alix Draper",
+      "role": "Board Editor",
+      "school": "Columbia College '27",
+      "photo": "/images/board/alix-draper.jpg"
+    },
+    {
+      "name": "Ray Atlas",
+      "role": "Board Illustrator",
+      "school": "Barnard College '26",
+      "photo": "/images/board/ray-atlas.jpg"
+    },
+    {
+      "name": "Ioana Stanoiu",
+      "role": "Board Editor",
+      "school": "",
+      "photo": "/images/board/default-pfp.png"
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Ana Reif",
+      "role": "Former Editor-in-Chief",
+      "school": "Columbia College '24",
+      "photo": "/images/board/ana-reif.jpg"
+    },
+    {
+      "name": "Megan Amaro",
+      "role": "Board Illustrator",
+      "school": "School of General Studies '25",
+      "photo": "/images/board/default-pfp.png"
+    },
+    {
+      "name": "Lily Kuhn",
+      "role": "Former Editor-in-Chief",
+      "school": "Barnard College '25",
+      "photo": "/images/board/lily-kuhn.jpg"
+    },
+    {
+      "name": "Kah Sin Tang",
+      "role": "Board Illustrator",
+      "school": "School of General Studies '26",
+      "photo": "/images/board/default-pfp.png"
+    },
+    {
+      "name": "Rahele Megosha",
+      "role": "Former Editor-in-Chief",
+      "school": "Columbia College '25",
+      "photo": "/images/board/rahele-megosha.jpg"
+    },
+    {
+      "name": "Adam Vogt",
+      "role": "Editor-in-Chief Emeritus",
+      "school": "School of General Studies '24",
+      "photo": "/images/board/adam-vogt.jpg"
+    },
+    {
+      "name": "Charla Teves",
+      "role": "Board Editor",
+      "school": "Barnard College '25",
+      "photo": "/images/board/charla-teves.jpg"
+    }
+  ],
+  "advisor": {
+    "name": "Professor Jill Shapiro, PhD",
+    "titles": [
+      "Sapient Faculty Advisor &",
+      "Director of Undergraduate Studies",
+      "Evolutionary Biology of the Human Species (EBHS) at Columbia University"
+    ],
+    "email": "jss19@columbia.edu",
+    "photo": "/images/board/jill-shapiro.png"
+  },
+  "thanks": "A special thank you to Kyle Bukhari, E3B Director of Administration and Finance",
+  "letter": {
+    "heading": "Letter from the Editors",
+    "subheading": "Vol. 13, Spring 2026",
+    "paragraphs": [
+      "Dear Reader,",
+      "On behalf of the editorial board, we are proud to present the thirteenth volume of Sapient, Columbia University's undergraduate journal of Biological Anthropology. This year's volume reflects the breadth of our field, featuring original research alongside creative works—including photography, sketches, song, and haiku—that highlight the many ways we explore and communicate science.",
+      "We are incredibly grateful to every member of our editorial board for their dedication throughout the publication process. We also extend our sincere thanks to Professor Jill Shapiro for her unwavering mentorship and support, without whom this journal would not be possible.",
+      "This volume is dedicated to the memory of Dr. Jane Goodall, whose extraordinary contributions to biological anthropology and conservation continue to inspire generations of scientists. We would also like to acknowledge Dr. Birutė Galdikas, another pioneering primatologist whose lifelong dedication to the study and conservation of orangutans has profoundly advanced our understanding of them and the importance of protecting them.",
+      "As we conclude our time as Co-Editors-in-Chief, we are honored to continue serving Sapient as Editors-in-Chief Emeritus. We are excited to pass the baton to a new generation of editors and are confident the journal will continue to grow as a home for undergraduate scholarship and a community united by a shared passion for biological anthropology."
+    ],
+    "signature": "Janaki Nair and Yuki Ogawa, Co-Editors-in-Chief"
+  }
+}
