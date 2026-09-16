@@ -37,6 +37,54 @@
       "cover": "/images/covers/vol-9.png",
       "file": "/files/sapient-vol-9.pdf",
       "current": false
+    },
+    {
+      "label": "Volume Eight",
+      "cover": "/images/covers/vol-8.png",
+      "file": "/files/sapient-vol-8.pdf",
+      "current": false
+    },
+    {
+      "label": "Volume Seven",
+      "cover": "/images/covers/vol-7.png",
+      "file": "/files/sapient-vol-7.pdf",
+      "current": false
+    },
+    {
+      "label": "Volume Six",
+      "cover": "/images/covers/vol-6.png",
+      "file": "/files/sapient-vol-6.pdf",
+      "current": false
+    },
+    {
+      "label": "Volume Five",
+      "cover": "/images/covers/vol-5.png",
+      "file": "/files/sapient-vol-5.pdf",
+      "current": false
+    },
+    {
+      "label": "Volume Four",
+      "cover": "/images/covers/vol-4.png",
+      "file": "/files/sapient-vol-4.pdf",
+      "current": false
+    },
+    {
+      "label": "Volume Three",
+      "cover": "/images/covers/vol-3.png",
+      "file": "/files/sapient-vol-3.pdf",
+      "current": false
+    },
+    {
+      "label": "Volume Two",
+      "cover": "/images/covers/vol-2.png",
+      "file": "/files/sapient-vol-2.pdf",
+      "current": false
+    },
+    {
+      "label": "Volume One",
+      "cover": "/images/covers/vol-1.png",
+      "file": "/files/sapient-vol-1.pdf",
+      "current": false
     }
   ]
 }

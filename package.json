@@ -5,8 +5,9 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview"
+    "build": "astro build && npm run check:assets",
+    "preview": "astro preview",
+    "check:assets": "node scripts/check-asset-sizes.mjs dist"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
