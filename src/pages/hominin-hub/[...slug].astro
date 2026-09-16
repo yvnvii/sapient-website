@@ -25,7 +25,6 @@ const fmt = (d: Date) =>
           {post.data.author} · {fmt(post.data.date)}
           {post.data.readingTime && ` · ${post.data.readingTime}`}
         </p>
-        {post.data.image && <img src={post.data.image} alt="" />}
         <Content />
       </div>
     </div>

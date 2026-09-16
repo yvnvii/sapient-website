@@ -3,13 +3,25 @@ title: "In the News: A Dying Dialect among Wild West Chimpanzees"
 date: 2025-02-27
 author: "Janaki Nair"
 readingTime: "3 min read"
-excerpt: "Source: Garcia Roa R. 2023. Pepe, a one-year-old baby chimp rescued from poaching by the CCC."
-image: "/images/posts/in-the-news-a-dying-dialect-among-wild-west-chimpanzees.jpg"
+excerpt: "Humans are often considered the only species capable of speech, yet chimpanzees, our closest relatives, possess their own intricate form of communication. Recent research in Taï…"
+image: "/images/posts/in-the-news-a-dying-dialect-among-wild-west-chimpanzees-1.jpg"
 draft: false
 ---
+![Source: García Roa R. 2023. Pepe, a one-year-old baby chimp rescued from poaching by the CCC, enjoys one of the...](/images/posts/in-the-news-a-dying-dialect-among-wild-west-chimpanzees-1.jpg)
+*Source: García Roa R. 2023. Pepe, a one-year-old baby chimp rescued from poaching by the CCC, enjoys one of the school sessions in the forest. The Guardian \[Internet\]. \[cited 2025 February 25\]. Available from: [https://www.theguardian.com/world/2023/jan/20/on-the-edge-of-extinction-why-western-chimpanzees-matter-photo-essay](https://www.theguardian.com/world/2023/jan/20/on-the-edge-of-extinction-why-western-chimpanzees-matter-photo-essay)*
 
-> Paste the body of this post here, from
-> https://www.sapientjournal.com/post/in-the-news-a-dying-dialect-among-wild-west-chimpanzees
->
-> This file is plain Markdown: `##` makes a heading, `*word*` is italics,
-> `[label](url)` is a link. Delete this block once the text is in.
+Humans are often considered the only species capable of speech, yet chimpanzees, our closest relatives, possess their own intricate form of communication. Recent research in Taï National Park, Côte d'Ivoire, reveals a striking cultural shift: the disappearance of a key communicative gesture among wild western chimpanzees, a loss linked directly to poaching pressures.
+
+In wild western chimpanzees, communication is marked by four distinct 'copulation solicitation gestures,' which involve manipulating objects to produce noise. These include the branch shake, heel-kick, knuckle-knock, and leaf-clip—gestures that play crucial roles in signaling to others, particularly in mating displays. These signals are crucial not only for capturing attention but also for signaling sexual intent to females. The gestures are thought to be either socially learned dialects or genetically ingrained. Drawing on a Chomskyan (or, more aptly, 'Chimpskyan') framework, one might argue that chimpanzees inherit predispositions for specific signals, although not all gestures in their repertoire are necessarily expressed. However, the more widely accepted theory suggests that these gestures are learned through social interaction, as evidence shows that each community tends to use a distinct set of signals. Female chimpanzees, who typically leave their natal groups upon reaching sexual maturity, facilitate gene flow between communities. Despite this, the gestures remain culturally distinct, suggesting that copulation solicitation gestures are passed down through social learning rather than genetic inheritance.
+
+There is no doubt this learned language plays a vital role in chimpanzee social structures. A team from the Max Planck Institute for Evolutionary Anthropology set out to analyze these gestures. After conducting "all-day focal sampling" (a method of recording animal behavior throughout the day), scientists tracked the probability of each gesture across four chimpanzee communities. The results were unexpected: the knuckle-knock gesture, once common among the Northern community, had vanished entirely. The question then arose: How had this Northern population unlearned the knuckle-knock gesture?
+
+It turns out that the Northern chimpanzees didn’t unlearn this means of connection—they lost it.
+
+Since 1999, the Northern community of wild western chimpanzees has endured severe human pressures. Poaching had decimated the group, especially the males. As male-male interactions diminished, so too did the frequency of the associated signals. The decline in these interactions led to a breakdown in communication, resulting in less interconnectedness within the group. The flow of information, crucial for the transmission of learned behaviors, was stunted. As a result, the North community experienced a complete loss of this particular dialect.
+
+Horizontal cultural transmission—the sharing of knowledge between peers—underpins chimpanzee communication. The breakdown of this process, driven by poaching, affects far more than individual animals: it disrupts the very fabric of chimpanzee society, eroding their cultural identity and social cohesion. The consequences extend beyond the loss of gestures: they threaten the long-term survival and adaptability of these populations. As researchers continue to study these cultural shifts among chimpanzees, Catherine Crockford, an author of the study, emphasized how fragile animal culture can be. 'It makes you question how much we have already lost before we even learned that it existed,' Crockford said. The loss of such behaviors due to poaching challenges us to reconsider the extent to which human activities impact the intricate social structures of other species—structures we may not fully understand yet. How quickly conservation efforts will adapt to these findings, however, is uncertain. Poaching remains a persistent threat, and addressing the loss of chimpanzee cultural identity is no small task.
+
+Crockford stresses the urgency of preserving these structures. 'We have to change the way we approach conservation,' she says, calling for a more holistic approach to protect not just chimpanzees, but the essence of their communities.
+
+Source Article: Malherbe M, Kpazahi HN, Kone I, Samuni L, Crockford C, Wittig RM. 2025. Signal traditions and cultural loss in chimpanzees. Current Biology. \[cited 2025 February 25\]; Available from: [https://doi.org/10.1016/j.cub.2024.12.008](https://doi.org/10.1016/j.cub.2024.12.008)

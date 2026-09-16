@@ -1,0 +1,25 @@
+---
+title: "New study: Chimpanzees can use tools to dig for underground food"
+date: 2019-05-21
+author: "Sapient Editorial Board"
+readingTime: "3 min read"
+excerpt: "New evidence suggests that tool use, once considered unique to hominins, is not specific only to humans and our fossil ancestors. In a recent study with chimpanzees from the…"
+image: "/images/posts/new-study-chimpanzees-can-use-tools-to-dig-for-underground-food-1.png"
+draft: false
+---
+New evidence suggests that tool use, once considered unique to hominins, is not specific only to humans and our fossil ancestors. In a recent study with chimpanzees from the Kristiansand Zoo in Norway, researchers found that the chimps were able to use provided tools to excavate underground foods. These findings offer fascinating insight into human evolutionary history. Since it’s hypothesized that using tools for excavating food played a role in hominin and human evolution, this research provides a glimpse into what tool-assisted foraging may have been like among fossil hominins like *Paranthropus*, *Australopithecus*, and early *Homo*.
+
+![These are the six tool behaviors the chimpanzees used to forage for underground food. The behaviors are as follows:...](/images/posts/new-study-chimpanzees-can-use-tools-to-dig-for-underground-food-1.png)
+*These are the six tool behaviors the chimpanzees used to forage for underground food. The behaviors are as follows: A-probe, B-perforate, C-pound, D-dig, E-shovel, and F-enlarge.*
+
+It’s been hypothesized that plant underground storage organs (USOs), or the parts of plants designed to store energy underground (e.g., carrots or ginger roots), were crucial components of the diet of African Pliocene and Pleistocene hominins. Some researchers theorize that these foods were especially important in human evolution because of their role as a “fallback food,” helping ancient hominins transition from moist, forested habitats to drier ones, where USOs may have been more plentiful. Although this theory is supported by archaeological, ecological, and ethnographic evidence, many questions remain, including: how could the foraging and extraction of USOs have developed in early hominins, and how may it have played a role in hominin evolution?
+
+In an effort to answer these questions, biologist Alba Motes-Rodrigo and a team from Sweden, Norway, and Germany conducted a study on a colony of captive chimpanzees. While other studies have seen captive primates—specifically bonobos and tufted capuchins—successfully use tools to excavate underground food, this experiment was done with chimpanzees because they are the only great ape (other than humans) known to use tools to extract underground USOs in the wild.
+
+After burying whole fruits in holes (both open and filled with soil) and providing the subject chimpanzees with tools (sticks and bark), researchers observed that all but one chimpanzee succeeded in excavating underground food at least once over the course of the series of experiments. The majority of chimpanzees also did so with tools, even though none had never seen another primate excavate underground food before the study began. The researchers noted that the subjects used six total tool behaviors to forage for underground food: probing, perforating, pounding, digging, shoveling, and enlarging. Motes-Rodrigo and her team argue that these results demonstrate that captive chimpanzees—even if they are “excavating-naïve,” or unfamiliar with digging up underground foods—are able to spontaneously use tools in order to forage buried food. Furthermore, they note that the six observed foraging behaviors indicate that food excavation does not involve a single behavior, but a repertoire of them.
+
+It’s significant that this study was done with chimpanzees for a number of reasons: chimpanzees are humans’ closest living relatives, they have a similar body size and degree of encephalization compared to early hominins, and they include populations that inhabit dry and open environments—which are very similar to those that many hominin species are believed to have lived in. Because of these similarities, the foraging behavior of contemporary chimpanzees is especially relevant to the study of human evolutionary history. And although researchers are still not sure what the exact implications of excavating and foraging behaviors may have been for the path of human evolution, it’s believed that the consumption of USOs would have been crucial to allowing early hominins to inhabit dry habitats. With this in mind, the study of the food excavation behaviors of nonhuman primates is key to gaining a better understanding of the behavior of now-unobservable fossil primates—and of what allowed hominins, including *Homo*, to survive where other taxa could not.
+
+Source:
+
+Motes-Rodrigo A, Majlesi P, Pickering TR, Laska M, Axelsen H, Minchin TC, et al. (2019) Chimpanzee extractive foraging with excavating tools: Experimental modeling of the origins of human technology. PLoS ONE 14(5): e0215644. [https://doi.org/10.1371/journal.pone.0215644](https://doi.org/10.1371/journal.pone.0215644)
